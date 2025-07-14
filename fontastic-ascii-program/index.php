@@ -146,9 +146,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     
     ];
     
-    echo "<p>There you go! Ascii art for your letter $char is </p><div id='result'>";
+    echo "<div id='result'>";
 
     if(array_key_exists($char, $patterns)){
+        echo "<p>There you go! Ascii art for your letter $char is </p>";
         foreach($patterns[$char] as $line){
             echo $line."\n";
         }
