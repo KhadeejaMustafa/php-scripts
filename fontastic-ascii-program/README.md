@@ -15,5 +15,5 @@ While this is just the beginning, future updates may include:
 - Enhanced UI with playful themes
 - Support for words rather than just letters.
 
-
+![Sample ASCII Art Output](https://github.com/user-attachments/assets/6e88621e-1c05-40f3-b5e2-b12741580ff7)
 
